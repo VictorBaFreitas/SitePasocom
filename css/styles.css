@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    animation: fall 2s ease-in-out infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.bg-image {
+    background-image: url('../assets/fundo-sgbr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+@media (max-width: 767px) {
+    .bg-image {
+        height: 35vh;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bg-image {
+        height: 50vh;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .bg-image {
+        height: 60vh;
+        background-size: contain;
+    }
+}
