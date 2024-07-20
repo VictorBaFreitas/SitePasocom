@@ -5,12 +5,21 @@
     font-family: "Roboto", sans-serif;
 }
 
-.fixed-button {
+.fixed-button-topo {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 10px;
     z-index: 1000;
     animation: fall 2s ease-in-out infinite;
+}
+
+.fixed-button-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 1000;
+    animation: fall 2s ease-in-out infinite;
+    color: green;
 }
 
 @keyframes fall {
