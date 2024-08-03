@@ -1,3 +1,4 @@
+/* ALL */
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +38,8 @@
     }
 }
 
+/* SISTEMA */
+
 .bg-image {
     background-image: url('../assets/fundo-sgbr.png');
     background-repeat: no-repeat;
@@ -65,6 +68,12 @@
     }
 }
 
+/* HOME */
+
 .missao {
     text-align: justify;
+}
+
+.img-footer {
+    width: 10vw;
 }
