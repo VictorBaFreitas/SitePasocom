@@ -23,6 +23,11 @@
     color: green;
 }
 
+.hover-effect:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
 @keyframes fall {
     0% {
         transform: translateY(-100px);
