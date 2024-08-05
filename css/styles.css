@@ -1,94 +1,94 @@
 /* ALL */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .fixed-button-topo {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    z-index: 1000;
-    animation: fall 2s ease-in-out infinite;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 1000;
+  animation: fall 2s ease-in-out infinite;
 }
 
 .fixed-button-whatsapp {
-    position: fixed;
-    bottom: 20px;
-    left: 10px;
-    z-index: 1000;
-    animation: fall 2s ease-in-out infinite;
-    color: green;
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  z-index: 1000;
+  animation: fall 2s ease-in-out infinite;
+  color: green;
 }
 
 .hover-effect:hover {
-    color: #007bff;
-    text-decoration: underline;
+  color: #007bff;
+  text-decoration: underline;
 }
 
 @keyframes fall {
-    0% {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-    50% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /* SISTEMA */
 
 .bg-image {
-    background-image: url('../assets/fundo-sgbr.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
+  background-image: url("../assets/Sistema/fundo-sgbr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
 }
 
 @media (max-width: 767px) {
-    .bg-image {
-        height: 35vh;
-        background-size: contain;
-    }
+  .bg-image {
+    height: 35vh;
+    background-size: contain;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .bg-image {
-        height: 50vh;
-        background-size: contain;
-    }
+  .bg-image {
+    height: 50vh;
+    background-size: contain;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .bg-image {
-        height: 60vh;
-        background-size: contain;
-    }
+  .bg-image {
+    height: 60vh;
+    background-size: contain;
+  }
 }
 
 /* HOME */
 
 .missao {
-    text-align: justify;
+  text-align: justify;
 }
 
 /* FOOTER */
 
 @media (min-width: 600px) {
-    .img-footer {
-        width: 15vw;
-    }
+  .img-footer {
+    width: 15vw;
+  }
 }
 
 @media (max-width: 599px) {
-    .img-footer {
-        width: 30vw;
-    }
+  .img-footer {
+    width: 30vw;
+  }
 }
