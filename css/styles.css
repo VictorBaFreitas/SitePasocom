@@ -79,6 +79,16 @@
     text-align: justify;
 }
 
-.img-footer {
-    width: 10vw;
+/* FOOTER */
+
+@media (min-width: 600px) {
+    .img-footer {
+        width: 15vw;
+    }
+}
+
+@media (max-width: 599px) {
+    .img-footer {
+        width: 30vw;
+    }
 }
